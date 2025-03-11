@@ -3,4 +3,4 @@ import os
 
 load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-API_GATEWAY_URL = os.getenv("API_GATEWAY_URL")
+API_GATEWAY_URL = "http://localhost:8080"
